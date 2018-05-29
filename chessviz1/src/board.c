@@ -39,7 +39,7 @@ void movePawn(char *piece, int r, int c, int r_end, int c_end){
     memset(scan,'0',8);
     
     scanf("%s",scan);
-
+	
     //проверка на пешку
 
     if (scan[6]=='0') {

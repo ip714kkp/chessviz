@@ -1,4 +1,5 @@
 #include "board.h"
+#include <guard>
 int main()
 {
     
