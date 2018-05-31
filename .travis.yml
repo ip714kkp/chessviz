@@ -1,4 +1,8 @@
 language: c
 compiler: gcc
 script: make
-script: make test
+script: 
+mkdir build
+cd build
+cmake --build
+ctest --output-on-failure
